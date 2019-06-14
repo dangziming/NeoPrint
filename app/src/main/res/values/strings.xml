@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NeoPrint</string>
+
+    <string name="print_text_tips">请写入想要打印的文字</string>
+    <string name="default_test_text">填入默认测试文字</string>
+
+    <string name="ContinuePrint">连续打印</string>
+    <string name="interval_time_et">间隔（ms）:</string>
+    <string name="execution_times_et">执行次数:</string>
+    <string name="start_print_btn">开始打印</string>
+    <string name="input_interval_time_hint">输入间隔时间</string>
+    <string name="input_execution_times_hint">输入执行次数</string>
+    <string name="default_interval_time">3000</string>
+    <string name="default_execution_times">3</string>
+</resources>

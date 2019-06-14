@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <LinearLayout
+        android:id="@+id/linear01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+		
+        <TextView
+            android:id="@+id/interval_time_tv"
+            style="@style/TextStyle001"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/interval_time_et" />
+
+        <EditText
+            android:id="@+id/interval_time_et"
+            style="@style/TextStyle001"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/editsharp"
+            android:hint="@string/input_interval_time_hint"
+            android:inputType="number"
+            android:text="@string/default_interval_time"  >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/execution_times_tv"
+            style="@style/TextStyle001"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/execution_times_et" />
+
+        <EditText
+            android:id="@+id/execution_times_et"
+            style="@style/TextStyle001"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/editsharp"
+            android:hint="@string/input_execution_times_hint"
+            android:inputType="number"
+            android:text="@string/default_execution_times" >
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start_print_Btn"
+        style="@style/TextStyle001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/cornerbtn_style"
+        android:text="@string/start_print_btn" />
+
+</LinearLayout>
